@@ -19,5 +19,3 @@ request(url, (error, response, body) => {
   }
   console.log(data[0].description);
 });
-
-console.log(typeof body);
